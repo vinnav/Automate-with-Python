@@ -17,6 +17,6 @@ textContent = textContent.replace("NOUN", noun)
 textContent = textContent.replace("VERB", verb)
 
 
-# The ADJECTIVE panda walked to the NOUN and then VERB ADVERB
+# The ADJECTIVE panda walked to the NOUN and then VERB
 text = open(str(sys.argv[1]), "w")
 text.write(textContent)
