@@ -23,6 +23,7 @@ if checkPasswordStrength(pwd):
 else:
     print("Your password is weak, it needs to contain 8 characters, at least a lower case, upper case and a number")
 
+# setting up github
 
 
     
