@@ -12,7 +12,7 @@ browser.get("https://mail.google.com/")
 time.sleep(2)
 
 userElem = browser.find_element_by_css_selector("#identifierId")
-userElem.send_keys("vincenzo.navarra@gmail.com")
+userElem.send_keys("xxx@gmail.com")
 submitElem = browser.find_element_by_css_selector(".RveJvd")
 submitElem.click()
 
@@ -20,7 +20,7 @@ time.sleep(2)
 
 passElem = browser.find_element_by_css_selector(".I0VJ4d > div:nth-child(1) > input:nth-child(1)")
 submitPassElem = browser.find_element_by_css_selector("#passwordNext > span:nth-child(3) > span:nth-child(1)")
-passElem.send_keys("fg8nzx848")
+passElem.send_keys("xxxx")
 submitPassElem.click()
 
 time.sleep(2)
